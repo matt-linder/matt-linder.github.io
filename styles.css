@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  background-color: #800;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  margin-left: 4rem;
+  color: #bbb;
+  text-shadow: 0 0 5px #000;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 20rem;
+  gap: 4rem;
+}
+
+section {
+  position: relative;
+  background-color: #bbb;
+  box-shadow: 0 0 10px #000;
+  width: 20rem;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 12rem;
+  background-color: #800;
+  transition: 0.3s ease-in-out;
+}
+
+section:hover::after {
+  top: 100%;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  box-shadow: 0 0 10px #000;
+  margin: 2rem 0;
+  transition: 0.3s ease-in-out;
+}
+
+img:hover {
+  scale: 1.1;
+  box-shadow: 0 0 10px #fff;
+}
+
+.section-break {
+  width: 80%;
+  height: 1px;
+  background-color: #0006;
+}
+
+section p {
+  margin: 2rem 1.5rem;
+}
+
+footer {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  background-color: #800;
+}
+
+footer a {
+  text-decoration: none;
+  color: #bbb;
+  margin-left: 2rem;
+}
