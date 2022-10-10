@@ -32,7 +32,7 @@ section {
   background-color: #bbb;
   box-shadow: 0 0 10px #000;
   width: 20rem;
-  min-height: 20rem;
+  min-height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
