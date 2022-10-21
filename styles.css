@@ -10,6 +10,7 @@ header {
   align-items: center;
   background-color: #800;
   margin-bottom: 4rem;
+  box-shadow: 0 0 5px #000;
 }
 
 h1 {
